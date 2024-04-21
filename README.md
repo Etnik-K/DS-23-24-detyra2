@@ -48,8 +48,19 @@ Mesazhi i dekoduar: ""
 Këto shembuj tregojnë se si algoritmi i Route Transposition Cipher funksionon për kodimin dhe dekodimin e mesazheve.
 
 
-#**BookCipher**
+# **BookCipher**
 Ky program implementon algoritmin e BookCipher për enkriptimin dhe dekriptimin e mesazheve.
+
+## Pershkrimi i Algoritmit
+BookCipher është një metodë e enkriptimit që përdor një libër të caktuar si çelës për të koduar dhe dekoduar mesazhe. Cdo fjalë e mesazhit zëvendësohet me një referencë në vendndodhjen e saj në libër, të shprehur zakonisht nëpërmjet numrit të faqes, numrit të rreshtit dhe pozicionit të fjalës në atë rresht. 
+Avantazhet dhe Disavantazhet
+
+Avantazhet:
+Thjeshtësi: Është relativisht e thjeshtë për t'u zbatuar nëse të dy palët kanë një kopje të librit.
+Siguri ndaj rastësive: Nëse libri nuk është i njohur nga palët e treta, mund të jetë i vështirë për t'u dekoduar pa dijeni të çelësit (librit).
+Disavantazhet:
+Siguria: Nëse libri është i njohur ose i gjetshëm, siguria e mesazhit mund të komprometohet lehtësisht.
+Prakticiteti: Menaxhimi dhe përdorimi i një libri specifik mund të jetë i papërshtatshëm dhe jo efikas në situata të caktuara.
 
 ## Ekzekutimi i Programit
 Për ekzekutimin e algoritmit nevojitet një compailer i gjuhës Java.
