@@ -48,3 +48,17 @@ Mesazhi i dekoduar: ""
 Këto shembuj tregojnë se si algoritmi i Route Transposition Cipher funksionon për kodimin dhe dekodimin e mesazheve.
 
 
+#**BookCipher**
+Ky program implementon algoritmin e BookCipher për enkriptimin dhe dekriptimin e mesazheve.
+
+## Ekzekutimi i Programit
+Për ekzekutimin e algoritmit nevojitet një compailer i gjuhës Java.
+Tek metoda main jepet teksti që dëshirojmë të enkriptojmë, pastaj nëpërmjet metodave të implementuara kryhet procesi i kodimit dhe dekodimit
+
+
+## Shembuj të Rezultateve
+
+Për të ilustruar funksionimin e algoritmit, këtu janë disa shembuj të rezultateve të ekzekutimit për enkriptimin dhe dekriptimin e mesazheve:
+
+
+
