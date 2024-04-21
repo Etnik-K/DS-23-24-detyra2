@@ -107,4 +107,24 @@ public class RouteCipher {
 
         return result.toString();
     }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Zgjidheni metoden e enkriptimit/dekriptimit:");
+        System.out.println("1. Clockwise route");
+        System.out.println("2. Anticlockwise route");
+        System.out.print(">> ");
+        int methodChoice = Integer.parseInt(scanner.nextLine());
+
+        System.out.print("\nJu lutem vendoseni numrin e kolonave (me i madh se 1): ");
+        int routeSize = Integer.parseInt(scanner.nextLine());
+
+        System.out.print("Ju lutem vendoseni plaintextin qe deshironi te enkriptoni/dekriptoni: ");
+        String plainText = scanner.nextLine();
+
+        // hjek hapsirat nga plaintexti
+        plainText = plainText.replaceAll("\\s", "");
+
+    }
   
