@@ -18,31 +18,31 @@ Për të ilustruar funksionimin e algoritmit, këtu janë disa shembuj të rezul
 
 ## Enkriptimi
 
-1. Kodimi i një mesazhi me ane te C (Clockwise):
+1. Enkriptimi i një mesazhi me ane te C (Clockwise) Basic 4x4:
 
-Mesazhi i hyrjes: "Route Transposition Cipher"
+Mesazhi i hyrjes: "Hello World"
 
-Mesazhi i koduar: "RnTru orpstsnhitpoait iiecCir"
+Mesazhi i koduar: "LRXXXXXLOHELOXDW"
 
-2. Kodimi i një mesazhi me ane te CC (Counter-Clockwise):
+2. Enkriptimi i një mesazhi me ane te CC (Counter-Clockwise) Basic 4x4:
 
-Mesazhi i hyrjes: ""
+Mesazhi i hyrjes: "Hello World"
 
-Mesazhi i koduar: ""
+Mesazhi i koduar: "LLEHOLXXXXXROWDX"
 
 ## Dekriptimi
 
-1. Dekodimi i një mesazhi me ane te C (Clockwise):
+1. Dekriptimi i një mesazhi me ane te C (Clockwise):
 
-Mesazhi i hyrjes: "RnTru orpstsnhitpoait iiecCir"
+Mesazhi i hyrjes: "LRXXXXXLOHELOXDW"
 
-Mesazhi i dekoduar: "Route Transposition Cipher"
+Mesazhi i dekoduar: "Hello World"
 
-2. Dekodimi i një mesazhi me ane te CC (Counter-Clockwise):
+2. Dekriptimi i një mesazhi me ane te CC (Counter-Clockwise):
 
-Mesazhi i hyrjes: ""
+Mesazhi i hyrjes: "LLEHOLXXXXXROWDX"
 
-Mesazhi i dekoduar: ""
+Mesazhi i dekoduar: "Hello World"
 
 
 Këto shembuj tregojnë se si algoritmi i Route Transposition Cipher funksionon për kodimin dhe dekodimin e mesazheve.
