@@ -54,3 +54,16 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# IDE-specific files (Eclipse, IntelliJ, NetBeans)
+.settings/
+.idea/
+*.iml
+*.ipr
+*.iws
