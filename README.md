@@ -62,17 +62,17 @@ Për të ilustruar funksionimin e algoritmit, këtu janë disa shembuj të rezul
 1)
 Mesazhi per enkriptim: The mice moved the cheese
 Mesazhi i enkriptuar: 3 7 12 8 1 6 3 15 15 4 5 1 10 16 10
-Mesazhi i enkriptuar: the mice Moved The Cheese
+Mesazhi i denkriptuar: the mice Moved The Cheese
 
 2)
 Mesazhi per enkriptim: The mice moved the cheese
 Mesazhi i enkriptuar: 8 1 5 6 18 5 9 3 16 12 11 12 7 5 6
-Mesazhi i enkriptuar: the mice moved The cheese
+Mesazhi i denkriptuar: the mice moved The cheese
 
 3)
 Mesazhi per enkriptim: The mice moved the cheese
 Mesazhi i enkriptuar: 12 15 4 8 1 6 2 5 13 11 10 1 12 1 3
-Mesazhi i enkriptuar: the mice Moved The Cheese
+Mesazhi i denkriptuar: the mice Moved The Cheese
 
 Nga shembujt kuptojmë që edhe pse po enkriptojmë të njëjtin mesazh rezultatet janë të ndryshme për arsye që një fjalë mund të gjindet në më shumë se një pozite andaj lista e pozitave behet shuffle kështu zgjedhet një pozicion rastësisht
 
