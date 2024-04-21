@@ -16,7 +16,7 @@ Në botën e kriptografisë, një Transposition Cipher është një mënyrë e k
 
 Për të ilustruar funksionimin e algoritmit, këtu janë disa shembuj të rezultateve të ekzekutimit për enkriptimin dhe dekriptimin e mesazheve:
 
-##Enkriptimi
+## Enkriptimi
 
 1. Kodimi i një mesazhi me ane te C (Clockwise):
 
@@ -30,7 +30,7 @@ Mesazhi i hyrjes: ""
 
 Mesazhi i koduar: ""
 
-##Dekriptimi
+## Dekriptimi
 
 1. Dekodimi i një mesazhi me ane te C (Clockwise):
 
