@@ -59,6 +59,39 @@ Tek metoda main jepet teksti që dëshirojmë të enkriptojmë, pastaj nëpërmj
 ## Shembuj të Rezultateve
 
 Për të ilustruar funksionimin e algoritmit, këtu janë disa shembuj të rezultateve të ekzekutimit për enkriptimin dhe dekriptimin e mesazheve:
+1)
+Mesazhi per enkriptim: The mice moved the cheese
+Mesazhi i enkriptuar: 3 7 12 8 1 6 3 15 15 4 5 1 10 16 10
+Mesazhi i enkriptuar: the mice Moved The Cheese
+
+2)
+Mesazhi per enkriptim: The mice moved the cheese
+Mesazhi i enkriptuar: 8 1 5 6 18 5 9 3 16 12 11 12 7 5 6
+Mesazhi i enkriptuar: the mice moved The cheese
+
+3)
+Mesazhi per enkriptim: The mice moved the cheese
+Mesazhi i enkriptuar: 12 15 4 8 1 6 2 5 13 11 10 1 12 1 3
+Mesazhi i enkriptuar: the mice Moved The Cheese
+
+Nga shembujt kuptojmë që edhe pse po enkriptojmë të njëjtin mesazh rezultatet janë të ndryshme për arsye që një fjalë mund të gjindet në më shumë se një pozite andaj lista e pozitave behet shuffle kështu zgjedhet një pozicion rastësisht
+
+
+##Leximi i Librit
+Lexon rreshtat nga një text file, permes filereader, dhe i ruan në një listë
+
+##Enkriptimi
+Kemi caktuar një numër i rreshtave që do ta ketë një faqe. Pasi numri i rreshtave të lexuar kalon numrin e caktuar nga ne, pasi arrihet ai numër kalojmë në faqen e re.
+I gjen dhe i ruan pozitat e cdo fjale të librit(ne formatin: faqja, rreshti, fjala). Nëse fjala e njejtë gjendet disa herë lista në fund bëhet shuffle që me rrit sigurinë. Nëse një pozitë përdoret gjatë enkriptimit ajo fshihet nga lista. Në bazë të tekstit që dëshirojmë të enkirptojmë, në fund kthehet një String me pozitat e cdo fjale(faqja, rreshti, fjala, faqja, rreshti, fjala...)
+
+##Dekriptimi
+Në array-in e Strings iterojme nga 3 numra në mënyrë që të marrim faqen, rreshtin dhe fjalen.
+Kur fjala gjendet i shtohet mesazhit të dekriptuar dhe unaza vazhdon
+Kthen mesazhin e dekriptuar
+
+##Main
+Specifikohet path për tek libri, caktohet numri i rreshtave të cilët konsiderojmë që e formojnë një faqe(variabile)
+Thirren metodat dhe printohet rezultati
 
 
 
