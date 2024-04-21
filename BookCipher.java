@@ -82,14 +82,14 @@ public class BookCipher {
 
 
 
-    public String dekripto(String encodedMessage) {
+    public String dekripto(String encryptedMessage) {
         List<String> bookLines = readBook();
         StringBuilder decryptedMessage = new StringBuilder();
-        String[] encodedWords = encodedMessage.split("\\s+");
-        for (int i = 0; i < encodedWords.length; i += 3) {
-            int page = Integer.parseInt(encodedWords[i]);
-            int line = Integer.parseInt(encodedWords[i + 1]);
-            int wordIndex = Integer.parseInt(encodedWords[i + 2]);
+        String[] encryptedWords = encryptedMessage.split("\\s+");
+        for (int i = 0; i < encryptedWords.length; i += 3) {
+            int page = Integer.parseInt(encryptedWords[i]);
+            int line = Integer.parseInt(encryptedWords[i + 1]);
+            int wordIndex = Integer.parseInt(encryptedWords[i + 2]);
             boolean wordFound = false;
 
             for (int j = 0; j < bookLines.size(); j++) {
@@ -122,14 +122,14 @@ public class BookCipher {
         Detyra.BookCipher cipher = new Detyra.BookCipher(txtFilePath, linesPerPage);
 
         //Mesazhi per me ekriptu
-        String messageToEncode = "The mice moved the cheese";
+        String messageToEncrypt = "The mice moved the cheese";
 
         //Enkriptimi
-        String encodedMessage = cipher.enkripto(messageToEncode);
-        System.out.println("Mesazhi i Enkriptuar: " + encodedMessage);
+        String encryptedMessage = cipher.enkripto(messageToEncrypt);
+        System.out.println("Mesazhi i enkriptuar: " + encryptedMessage);
 
         // Dekriptimi
-        String decodedMessage = cipher.dekripto(encodedMessage);
-        System.out.println("Mesazhi i dekriptuar: " + decodedMessage);
+        String decryptedMessage = cipher.dekripto(encryptedMessage);
+        System.out.println("Mesazhi i enkriptuar: " + decryptedMessage);
     }
 }
