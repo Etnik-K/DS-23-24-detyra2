@@ -77,19 +77,19 @@ Mesazhi i enkriptuar: the mice Moved The Cheese
 Nga shembujt kuptojmë që edhe pse po enkriptojmë të njëjtin mesazh rezultatet janë të ndryshme për arsye që një fjalë mund të gjindet në më shumë se një pozite andaj lista e pozitave behet shuffle kështu zgjedhet një pozicion rastësisht
 
 
-##Leximi i Librit
+## Leximi i Librit
 Lexon rreshtat nga një text file, permes filereader, dhe i ruan në një listë
 
-##Enkriptimi
+## Enkriptimi
 Kemi caktuar një numër i rreshtave që do ta ketë një faqe. Pasi numri i rreshtave të lexuar kalon numrin e caktuar nga ne, pasi arrihet ai numër kalojmë në faqen e re.
 I gjen dhe i ruan pozitat e cdo fjale të librit(ne formatin: faqja, rreshti, fjala). Nëse fjala e njejtë gjendet disa herë lista në fund bëhet shuffle që me rrit sigurinë. Nëse një pozitë përdoret gjatë enkriptimit ajo fshihet nga lista. Në bazë të tekstit që dëshirojmë të enkirptojmë, në fund kthehet një String me pozitat e cdo fjale(faqja, rreshti, fjala, faqja, rreshti, fjala...)
 
-##Dekriptimi
+## Dekriptimi
 Në array-in e Strings iterojme nga 3 numra në mënyrë që të marrim faqen, rreshtin dhe fjalen.
 Kur fjala gjendet i shtohet mesazhit të dekriptuar dhe unaza vazhdon
 Kthen mesazhin e dekriptuar
 
-##Main
+## Main
 Specifikohet path për tek libri, caktohet numri i rreshtave të cilët konsiderojmë që e formojnë një faqe(variabile)
 Thirren metodat dhe printohet rezultati
 
