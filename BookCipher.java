@@ -126,10 +126,10 @@ public class BookCipher {
 
         //Enkriptimi
         String encodedMessage = cipher.enkripto(messageToEncode);
-        System.out.println("Encoded message: " + encodedMessage);
+        System.out.println("Mesazhi i Enkriptuar: " + encodedMessage);
 
         // Dekriptimi
         String decodedMessage = cipher.dekripto(encodedMessage);
-        System.out.println("Decoded message: " + decodedMessage);
+        System.out.println("Mesazhi i dekriptuar: " + decodedMessage);
     }
 }
